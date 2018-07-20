@@ -15,7 +15,7 @@
 
 	<named-config name="BC1006">
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql://117.78.39.152:8306/db_product_info?useUnicode=true&amp;characterEncoding=UTF-8
+		<property name="jdbcUrl">jdbc:mysql://1006->152:8306/db_product_info?useUnicode=true&amp;characterEncoding=UTF-8
 		</property>
 		<property name="user">root</property>
 		<property name="password">Brunocaffe@2017.com</property>
@@ -28,7 +28,7 @@
 
 	<named-config name="BC1001">
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
-		<property name="jdbcUrl">jdbc:mysql://49.4.5.233:8306/db_product_info?useUnicode=true&amp;characterEncoding=UTF-8
+		<property name="jdbcUrl">jdbc:mysql://D5--->233:8306/db_product_info?useUnicode=true&amp;characterEncoding=UTF-8
 		</property>
 		<property name="user">root</property>
 		<property name="password">D5Kitchen@2017.com</property>
