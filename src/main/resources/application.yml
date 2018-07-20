@@ -1,0 +1,26 @@
+service:
+  buscodes: 1006
+
+
+mysql:
+  addr: 49.4.69.101
+#  addr: 192.168.152.5
+  username: root
+  password: Fuhua_1234
+ 
+
+hadoop:
+  hdfs: 
+#   path: hdfs://192.168.92.215:8020
+   path: hdfs://192.168.92.215:8020
+
+  
+  
+database:
+  path:
+    addr: jdbc:mysql://49.4.69.101:3506/dev_advs?useSSL=false
+ #   addr: jdbc:mysql://192.168.152.5:3506/dev_advs?useSSL=false
+    driver: com.mysql.jdbc.Driver
+    username: root
+    password: Fuhua_1234
+    table: elep_commend

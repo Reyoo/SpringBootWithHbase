@@ -1,0 +1,18 @@
+HIVE 建表脚本
+
+
+创建数据库库
+create database eplatform;
+
+CREATE EXTERNAL TABLE IF NOT EXISTS purchase_record(
+ userid String comment'用户id' , buscode String comment '业务编码' ,  shopsn String comment'门店id',  prodid String comment'商品id'
+creatime TIMESTAMP
+)
+comment '用户购买记录表';
+row format delimited fileds terminated by '\t' lines terminated by '\n'  
+stored as textfile ;
+
+
+
+
+																																																																																																						
